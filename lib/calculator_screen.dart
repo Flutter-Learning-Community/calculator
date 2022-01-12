@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
-class clac extends StatefulWidget {
-  const clac({ Key? key }) : super(key: key);
+class calculator_screen extends StatefulWidget {
+  const calculator_screen({ Key? key }) : super(key: key);
 
   @override
-  _clacState createState() => _clacState();
+ _calculator_screenState createState() => _calculator_screenState();
 }
 
-class _clacState extends State<clac> {
+class _calculator_screenState extends State<calculator_screen> {
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       appBar: AppBar(title: Text("Calculator"),
       backgroundColor: Colors.black,
